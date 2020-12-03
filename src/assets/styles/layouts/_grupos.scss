@@ -1,0 +1,41 @@
+.grupos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.grupos__carta {
+  margin-bottom: 60px;
+  padding: 0;
+
+  & img {
+    width: 100%;
+  }
+
+  & h1 {
+    text-align: center;
+    font-size: $font-size-20;
+    font-weight: $font-weight-500;
+    margin-top: 10px;
+    color: $h1-color;
+  }
+
+  & p {
+    text-align: justify;
+    font-size: $font-size-12;
+    margin-top: 10px;
+    color: $grey-color;
+  }
+
+  & a {
+    font-weight: $font-weight-400;
+    color: $a-color;
+
+    &:hover {
+      font-weight: $font-weight-400;
+      color: $h2-color;
+    }
+  }
+}

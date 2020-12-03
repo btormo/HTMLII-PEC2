@@ -1,0 +1,54 @@
+.cabecera {
+  background-image: url("../images/leiva-cabecera.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+
+  & h1 {
+    font-size: $font-size-36;
+    font-weight: $font-weight-500;
+    color: $a-color;
+  }
+}
+
+.biografia {
+  width: 100%;
+  float: left;
+
+  & h3 {
+    font-size: $font-size-18;
+    font-weight: $font-weight-400;
+    color: $h2-color;
+    margin-top: 30px;
+  }
+}
+
+.foto-lado {
+  float: right;
+  margin: 0 0 0 20px;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.foto-centro {
+  margin: 30px auto;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.discografia {
+  & h3 {
+    font-size: $font-size-18;
+    font-weight: $font-weight-400;
+    color: $h2-color;
+    margin-top: 30px;
+  }
+
+  & li {
+    font-size: $font-size-12;
+    margin: 15px auto;
+  }
+}

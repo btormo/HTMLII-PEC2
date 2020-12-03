@@ -1,0 +1,120 @@
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+em {
+  font-size: $font-size-12;
+  margin: 20px auto;
+}
+
+p {
+  font-size: $font-size-12;
+  margin: 20px auto;
+}
+
+blockquote {
+  font-size: $font-size-10;
+  font-weight: $font-weight-500;
+  text-align: center;
+  color: $grey-color;
+}
+
+//CABECERA
+header {
+  position: fixed;
+  height: 100px;
+  background-color: $bg-color;
+
+  & img {
+    position: fixed;
+  }
+}
+
+//MENU
+nav {
+  position: fixed;
+  right: 0;
+  height: 100px;
+  background-color: $bg-color;
+}
+
+.nav {
+  margin: 20px auto;
+
+  & a {
+    font-size: $font-size-14;
+    font-weight: $font-weight-400;
+    color: $h1-color;
+
+    &:hover {
+      color: $a-color;
+      font-weight: $font-weight-400;
+    }
+  }
+}
+
+.dropdown {
+  float: right;
+  margin: 30px 50px 0 0;
+
+  & button {
+    background-color: $bg-color;
+    border: none;
+    color: $h1-color;
+
+    &:hover {
+      background-color: $bg-color;
+      border: none;
+      color: $h1-color;
+    }
+  }
+}
+
+//CUERPO PRINCIPAL
+main {
+  padding-top: 84px;
+  margin: 0 auto;
+}
+
+.titular {
+  padding-top: 100px;
+  text-align: center;
+  color: $h1-color;
+  font-weight: $font-weight-500;
+}
+
+//FOOTER
+footer {
+  float: left;
+  width: 100%;
+}
+
+.footer__links {
+  margin: 50px auto;
+  text-align: center;
+
+  & a {
+    font-size: $font-size-10;
+    font-weight: $font-weight-400;
+    color: $a-color;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.footer__rrss {
+  width: 271px;
+  margin: 50px auto;
+
+  & i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: $grey-color;
+  }
+}

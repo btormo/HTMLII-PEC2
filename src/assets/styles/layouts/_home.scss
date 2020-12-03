@@ -1,0 +1,126 @@
+.home {
+  top: 0;
+  width: 100%;
+}
+
+.portada {
+  top: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+  & img {
+    grid-column: 1 / 5;
+    grid-row: 1 / 5;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.portada__logo {
+  grid-column: 2 / 4;
+  grid-row: 2;
+  align-self: start;
+  text-align: center;
+
+  & img {
+    margin: 0 auto;
+  }
+}
+
+.portada__boton {
+  width: 250px;
+  height: 100px;
+  align-self: end;
+  justify-self: center;
+  background-color: $bg-color-btn;
+  border: 10px solid $a-color;
+  border-radius: 25px;
+
+  & a {
+    font-size: $font-size-14;
+    font-weight: $font-weight-400;
+    color: $bg-color;
+  }
+}
+
+.btn-comprar {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.btn-tickets {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.cartel {
+  width: 60%;
+  margin: 0 auto;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.noticias {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  background-color: $bg-color;
+  border: none;
+
+  &:hover {
+    background-color: $bg-color;
+    border: none;
+  }
+}
+
+.btn-primary a {
+  font-size: $font-size-12;
+  font-weight: $font-weight-400;
+  color: $h2-color;
+
+  &:hover {
+    font-size: $font-size-12;
+    font-weight: $font-weight-500;
+    color: $a-color;
+  }
+}
+
+.noticias__resumenes {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  margin: 50px 0 20px 0;
+}
+
+.card {
+  position: inherit;
+  margin: 10px auto;
+}
+
+.card-body {
+  & h5 {
+    font-size: $font-size-18;
+    font-weight: $font-weight-500;
+    color: $h2-color;
+  }
+
+  & p {
+    font-size: $font-size-12;
+    color: $grey-color;
+    margin-bottom: 0;
+  }
+
+  & blockquote {
+    font-size: $font-size-10;
+    font-weight: $font-weight-500;
+    color: $grey-color;
+    margin-top: 0;
+  }
+}

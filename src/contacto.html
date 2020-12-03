@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link
+        href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900'
+        rel='stylesheet' type='text/css'>
+    <title>VinaloPop festival</title>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html"> <img src="../src/assets/images/logo.png" alt="fondo festival"></a>
+    </header>
+
+    <nav>
+        <ul class="nav justify-content-center menu">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="grupos.html">Grupos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tickets</a>
+            </li>
+        </ul>
+
+        <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Menú
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item btn-info" href="index.html">Home</a>
+                <a class="dropdown-item" href="grupos.html">Grupos</a>
+                <a class="dropdown-item" href="#">Noticias</a>
+                <a class="dropdown-item" href="#">Tickets</a>
+            </div>
+        </div>
+    </nav>
+    <section class="mapa"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9119.775572434279!2d-0.6700304842647962!3d38.267038726693116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b43155d0de69%3A0x4ac122aa38d73600!2sEstadio%20Manuel%20Mart%C3%ADnez%20Valero!5e0!3m2!1ses!2ses!4v1605723266466!5m2!1ses!2ses"
+            width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </section>
+
+    <main class="main-contacto">
+        <section class="contactos">
+            <h1>PATROCINIOS</h1>
+            <p>sponsors@vinalopop.com</p>
+            <h1>CONTRATACIONES ARTISTAS</h1>
+            <p>booking@vinalopop.com</p>
+            <h1>RECLAMACIONES</h1>
+            <p>atencionalcliente@vinalopop.com</p>
+        </section>
+        <section class="formulario">
+            <h1>INFORMACIÓN GENERAL</h1>
+            <form>
+                <div class="form-group">
+                    <label for="inputNombre">Nombre:</label>
+                    <input type="text" class="form-control" id="inputNombre">
+                </div>
+                <div class="form-group">
+                    <label for="inputTelefono">Teléfono:</label>
+                    <input type="text" class="form-control" id="inputTelefono">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Mail:</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                </div>
+                <div class="form-group">
+                    <label for="inputTexto">Escríbenos tus dudas</label>
+                    <textarea class="form-control" id="inputTexto" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__links">
+            <a href="#">CONDICIONES VENTA ENTRADAS</a>
+            <a href="contacto.html">CONTACTO</a>
+            <a href="#">TRABAJA CON NOSOTROS</a>
+            <a href="#">PRENSA</a>
+            <a href="#">PATROCINADORES</a>
+            <a href="#">COLABORADORES</a>
+            <a href="#">AVISO LEGAL Y CONDICIONES GENERALES DE USO</a>
+            <a href="#">POLÍTICA DE PRIVACIDAD</a>
+            <a href="#">POLÍTICA DE COOKIES</a>
+            <a href="#">EDICIONES ANTERIORES</a>
+        </div>
+        <div class="footer__rrss">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-spotify"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-itunes-note"></i>
+        </div>
+    </footer>
+
+
+    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>
